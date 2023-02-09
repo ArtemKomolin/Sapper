@@ -1,0 +1,22 @@
+{% extends 'sapy/base.html' %}
+
+{% block content %}
+<h1 class="the_game">The Game</h1>
+<h1 class="sapper">Sapper</h1>
+{% for r in pole %}
+  {% for c in r %}
+    <tbody>
+    <strong{{c.num}}>{{c.around_mines}}</strong{{c.num}}>
+    </tbody>
+<tbody>
+    {% if c.mine %}
+       <button id="scale-{{ c.num }}" class="btn-scale-1 btn">#</button>
+    {% else %}
+    <button id="scale2-{{ c.num }}" class="btn-scale-2 btn"></button>
+    {% endif %}
+    </tbody>
+  {% endfor %}
+<br>
+{% endfor %}
+{% endblock %}
+
