@@ -9,7 +9,7 @@
 }
 
 .sapper {
-  font-size: 150px;
+  font-size: 50px;
   margin: 10px;
   font-family: "Montserrat";
   color: rgb(209, 190, 190);
@@ -29,7 +29,7 @@
   font-weight: 400;
   font-family:Arial, Helvetica, sans-serif;
   border:none;
-  color: white;
+  color: black;
   text-shadow: 1px 1px 3px #8e8e8e;
 }
 
@@ -49,7 +49,7 @@
   font-weight: 400;
   font-family:Arial, Helvetica, sans-serif;
   border:none;
-  color: white;
+  color: black;
   text-shadow: 1px 1px 3px #8e8e8e;
 }
 
@@ -73,4 +73,17 @@ img.background {
 
 body {
 background: url('../images/background.jpg') repeat 0 0;
+}
+
+.restart {
+  padding: 3px;
+  margin: 2px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
+  border:none;
+  color: white;
+  text-shadow: 1px 1px 3px #8e8e8e;
 }
